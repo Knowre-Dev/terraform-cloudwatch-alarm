@@ -1,0 +1,34 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+**/*.swp
+*.sh
+
+#  Local .terraform directories
+**/.terraform/*
+**/.terragrunt-cache/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform.tfstate.lock.info
+
+
+# Module directory
+.terraform/
+.terragrunt-cache/
+.idea
+terraform-aws-vpc-peering.iml
+
+.build-harness
+build-harness
+
+*.envrc
+*.log
+*.pem
+*.retry
+
+*.retry
+
+.DS_Store
+.vscode
+.direnv
