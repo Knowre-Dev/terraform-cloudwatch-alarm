@@ -16,6 +16,7 @@
 # Module directory
 .terraform/
 .terragrunt-cache/
+.terraform.lock.hcl
 .idea
 terraform-aws-vpc-peering.iml
 
