@@ -7,25 +7,27 @@ terraform {
   backend "s3" {}
 }
 
-# resource "aws_lambda_permission" "cloudwatch_trigger" {
-#   statement_id  = "AllowExecutionFromCloudWatch"
-#   action        = "lambda:InvokeFunction"
-#   function_name = data.terraform_remote_state.lambda_function.outputs.lambda_function_name
-#   principal     = "events.amazonaws.com"
-#   source_arn    = aws_cloudwatch_event_rule.cloudwatch_event_rule[0].arn
-
-#   count         = length(var.schedule_expression) > 0 ? 1 : 0
-# }
-
 module "cloudwatch_event_rule_label" {
-  source      = "git::https://github.com/cloudposse/terraform-null-label.git?ref=0.24.1"
-  enabled     = var.enabled
-  namespace   = var.namespace
-  environment = var.environment
-  stage       = var.stage
-  name        = var.name
-  attributes  = ["cloudwatch", "event", "rule"]
-  tags        = map("Service", var.name)
+  source          = "cloudposse/label/null"
+  version         = "0.25.0"
+  enabled         = var.enabled
+  stage           = var.env
+  environment     = var.region_code
+  namespace       = var.country
+  tenant          = var.role
+  name            = var.name
+  attributes      = ["cloudwatch", "event", "rule"]
+
+  label_order     = ["stage", "environment", "namespace", "name", "attributes"]
+  labels_as_tags  = []
+  tags            = {
+    "env"         = "${var.env}"
+    "region"      = "${var.aws_region}"
+    "region_code" = "${var.region_code}"
+    "country"     = "${var.country}"
+    "role"        = "${var.role}"
+    "service"     = "${var.name}"
+  }
 }
 
 resource "aws_cloudwatch_event_rule" "cloudwatch_event_rule" {

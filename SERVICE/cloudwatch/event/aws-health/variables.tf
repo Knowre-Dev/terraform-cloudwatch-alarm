@@ -18,25 +18,31 @@ variable "tags" {
   description = "Additional tags (e.g. map('BusinessUnit`,`XYZ`)"
 }
 
-variable "namespace" {
-  description = "Namespace (e.g. `cp` or `cloudposse`)"
-  type        = string
-}
-
-variable "environment" {
-  type        = string
-  default     = ""
-  description = "Environment, e.g. 'prod', 'staging', 'dev', 'pre-prod', 'UAT'"
-}
-
-variable "stage" {
-  description = "Stage (e.g. `prod`, `dev`, `staging`)"
-  type        = string
-}
-
 variable "name" {
   description = "Name  (e.g. `app` or `cluster`)"
   type        = string
+}
+
+variable "env" {
+  description = "Env (e.g. `prod`, `dev`, `staging`)"
+  type        = string
+}
+
+variable "region_code" {
+  type        = string
+  default     = ""
+  description = "Region Code, e.g. 'apne2', 'apne1', 'usea1'"
+}
+
+variable "role" {
+  description = "service category"
+  type        = string
+}
+
+variable "country" {
+  description = "country (e.g. `kr` or `us` or `glb`)"
+  type        = string
+  default     = "glb"
 }
 
 variable "enabled" {

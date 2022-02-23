@@ -31,6 +31,29 @@ variable "event_categories" {
   default     = null
 }
 
+# Tags
+variable "env" {
+  description = "Env (e.g. `prod`, `dev`, `staging`)"
+  type        = string
+}
+
+variable "region_code" {
+  type        = string
+  default     = ""
+  description = "Region Code, e.g. 'apne2', 'apne1', 'usea1'"
+}
+
+variable "role" {
+  description = "service category"
+  type        = string
+}
+
+variable "country" {
+  description = "country (e.g. `kr` or `us` or `glb`)"
+  type        = string
+  default     = "glb"
+}
+
 variable "tags" {
   description = "Specifies object tags key and value. This applies to all resources created by this module."
   default = {

@@ -2,14 +2,14 @@ variable "aws_region" {
   type = string
 }
 
-variable "namespace" {
+variable "country" {
   type        = string
-  description = "Namespace, which could be your organization name, e.g. 'eg' or 'cp'"
+  description = "Country, which could be your organization name, e.g. 'kr', 'us' or 'glb'"
 }
 
-variable "stage" {
+variable "env" {
   type        = string
-  description = "Stage, e.g. 'prod', 'staging', 'dev', or 'test'"
+  description = "Env, e.g. 'prd', 'stg', or 'dev'"
 }
 
 # variable "name" {

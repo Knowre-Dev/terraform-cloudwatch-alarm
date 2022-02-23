@@ -71,7 +71,7 @@ variable "statistic" {
   default     = null
 }
 
-variable "query_dimensions" {
+variable "query" {
   description = "The dimensions for the alarm's associated metric."
   type        = any
   default     = null
