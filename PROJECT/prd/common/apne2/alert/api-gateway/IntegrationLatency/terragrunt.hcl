@@ -1,5 +1,5 @@
 terraform {
-  source = "../../../../../../../../../SERVICE/terraform-service-aws-cloudwatch-alert/cloudwatch/metric/alarm/generic_multiple_dimension"
+  source = "../../../../../../../SERVICE/cloudwatch/metric/alarm/generic_multiple_dimension"
 }
 
 include {
@@ -7,7 +7,7 @@ include {
 }
 
 dependency "sns_topic_common" {
-  config_path = "../../../../sns/alarm-to-slack/common"
+  config_path = "../../../sns/alarm-to-slack/common"
 }
 
 inputs = {
@@ -77,8 +77,12 @@ inputs = {
     }
   }
 
-  threshold_warn      = 60
-  threshold_crit      = 80
-  ok_actions          = true
-  alarm_actions       = [dependency.sns_topic_common.outputs.sns_topic_arn]
+
+  threshold_warn      = 2000
+  ok_actions_warn     = true
+  alarm_actions_warn  = [dependency.sns_topic_common.outputs.sns_topic_arn]
+
+  threshold_crit      = 5000
+  ok_actions_crit     = true
+  alarm_actions_crit  = [dependency.sns_topic_common.outputs.sns_topic_arn]
 }
