@@ -16,7 +16,7 @@ inputs = {
   comparison_operator = "GreaterThanOrEqualToThreshold"
   evaluation_periods  = 1
   unit                = "Count"
-  period              = 60
+  period              = 300
   datapoints_to_alarm = 1
 
   cw_namespace        = "AWS/ApplicationELB"
@@ -24,19 +24,19 @@ inputs = {
 
   query = {
     id                = "e1"
-    expression        = "((m1+m2)/m3)*100"
+    expression        = "(m2/m3)*100"
     label             = "Error Rate"
   }
   metric_query = [
     {
-      metric_name     = "HTTPCode_Target_5XX_Count"
+      metric_name     = "HTTPCode_Target_4XX_Count"
       dimension       = {
         TargetGroup = "targetgroup/dky-stable/f06948eaf912b016"
         LoadBalancer = "app/dky-stable/2fbfb438da5302a7"
       }
     },
     {
-      metric_name     = "HTTPCode_Target_4XX_Count"
+      metric_name     = "HTTPCode_Target_5XX_Count"
       dimension       = {
         TargetGroup = "targetgroup/dky-stable/f06948eaf912b016"
         LoadBalancer = "app/dky-stable/2fbfb438da5302a7"

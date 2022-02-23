@@ -12,7 +12,7 @@ dependency "sns_topic" {
 
 inputs = {
   name      = "aws-health-events"
-  role      = "mgmt"
+  role      = "mgt"
   sns_topic = dependency.sns_topic.outputs.sns_topic_arn
   enabled   = true
 }

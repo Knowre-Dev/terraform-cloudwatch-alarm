@@ -41,10 +41,10 @@ inputs = {
       TargetGroup = "targetgroup/krsqr-stable/49f44fee75da1603"
       LoadBalancer = "app/krsqr-stable/17b1563bfe7f7b1a"
     },
-    "[mowbore-sl]" = {
-      TargetGroup = "targetgroup/mowbore-sl-stable/3ea9d3b70880981f"
-      LoadBalancer = "app/mowbore-sl-stable/875688c2a52379f9"
-    }
+    # "[mowbore-sl]" = {
+    #   TargetGroup = "targetgroup/mowbore-sl-stable/3ea9d3b70880981f"
+    #   LoadBalancer = "app/mowbore-sl-stable/875688c2a52379f9"
+    # }
     "[mowbore-dump-worker]" = {
       TargetGroup = "targetgroup/mowbore-dump-worker-stable/a27787cb7b914f6b"
       LoadBalancer = "app/mowbore-dump-worker-stable/b3f70a9a8b338b19"

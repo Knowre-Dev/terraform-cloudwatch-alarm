@@ -16,7 +16,7 @@ inputs = {
   comparison_operator = "GreaterThanOrEqualToThreshold"
   evaluation_periods  = 1
   unit                = "Count"
-  period              = 60
+  period              = 300
   datapoints_to_alarm = 1
 
   cw_namespace        = "AWS/ApplicationELB"
@@ -24,7 +24,7 @@ inputs = {
 
   query = {
     id                = "e1"
-    expression        = "((m1+m2)/m3)*100"
+    expression        = "(m2/m3)*100"
     label             = "Error Rate"
   }
   metric_query = [
