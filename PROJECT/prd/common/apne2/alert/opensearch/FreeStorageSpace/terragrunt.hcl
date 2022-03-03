@@ -21,7 +21,7 @@ inputs = {
 
   cw_namespace        = "AWS/ES"
   metric_name         = "FreeStorageSpace"
-  statistic           = "Maximum"
+  statistic           = "Minimum"
 
   dimensions = {
     "[sl-logstrg-orange]"     = {
@@ -31,6 +31,6 @@ inputs = {
   }
 
   threshold_crit      = 1000
-  ok_actions_crit     = false
+  ok_actions_crit     = true
   alarm_actions_crit  = [dependency.sns_topic_common.outputs.sns_topic_arn]
 }

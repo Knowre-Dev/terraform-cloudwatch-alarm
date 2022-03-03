@@ -21,7 +21,7 @@ inputs = {
 
   cw_namespace        = "AWS/ES"
   metric_name         = "CPUUtilization"
-  statistic           = "Maximum"
+  statistic           = "Average"
 
   dimensions = {
     "[sl-logstrg-orange]"     = {

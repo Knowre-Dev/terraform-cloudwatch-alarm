@@ -91,6 +91,6 @@ inputs = {
   }
 
   threshold_crit      = 90
-  ok_actions          = true
-  alarm_actions       = [dependency.sns_topic_common.outputs.sns_topic_arn]
+  ok_actions_crit     = true
+  alarm_actions_crit  = [dependency.sns_topic_common.outputs.sns_topic_arn]
 }

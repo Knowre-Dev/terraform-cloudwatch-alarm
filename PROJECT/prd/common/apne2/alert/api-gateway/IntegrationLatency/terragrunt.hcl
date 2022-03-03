@@ -23,6 +23,8 @@ inputs = {
   metric_name         = "IntegrationLatency"
   statistic           = "Average"
 
+  treat_missing_data  = "notBreaching"
+
   dimensions = {
     "[codebuild-webhook]" = {
       ApiName         = "codebuild-webhook"
@@ -78,11 +80,11 @@ inputs = {
   }
 
 
-  threshold_warn      = 2000
-  ok_actions_warn     = true
-  alarm_actions_warn  = [dependency.sns_topic_common.outputs.sns_topic_arn]
+  # threshold_warn      = 2000
+  # ok_actions_warn     = false
+  # alarm_actions_warn  = [dependency.sns_topic_common.outputs.sns_topic_arn]
 
-  threshold_crit      = 5000
-  ok_actions_crit     = true
+  threshold_crit      = 20000
+  ok_actions_crit     = false
   alarm_actions_crit  = [dependency.sns_topic_common.outputs.sns_topic_arn]
 }

@@ -14,10 +14,10 @@ inputs = {
   alarm_name          = "OpenSearch Master JVMMemoryPressure"
   alarm_description   = "OpenSearch Master JVMMemoryPressure"
   comparison_operator = "GreaterThanOrEqualToThreshold"
-  evaluation_periods  = 15
+  evaluation_periods  = 3
   unit                = "Percent"
-  period              = 60
-  datapoints_to_alarm = 1
+  period              = 300
+  datapoints_to_alarm = 3
 
   cw_namespace        = "AWS/ES"
   metric_name         = "MasterJVMMemoryPressure"

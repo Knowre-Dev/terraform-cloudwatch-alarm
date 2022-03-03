@@ -12,6 +12,10 @@ dependency "sns_topic_common" {
   config_path = "../../../../apne2/sns/alarm-to-slack/common"
 }
 
+dependency "sns_topic_us_common" {
+  config_path = "../../../../usea1/sns/alarm-to-slack/common"
+}
+
 inputs = {
   name                = "slack-common"
   enabled             = "true"
@@ -19,5 +23,5 @@ inputs = {
   slack_channel_id    = "C02V18DDRFH"
   slack_workspace_id  = "T024UHAGF"
   workspace_name      = "slack-common"
-  alarm_sns_topic_arns = [dependency.sns_topic_common.outputs.sns_topic_arn]
+  alarm_sns_topic_arns = [dependency.sns_topic_common.outputs.sns_topic_arn, dependency.sns_topic_us_common.outputs.sns_topic_arn]
 }

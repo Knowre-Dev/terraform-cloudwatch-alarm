@@ -91,7 +91,10 @@ inputs = {
   }
 
   threshold_warn      = 70
+  ok_actions_warn     = true
+  alarm_actions_warn  = [dependency.sns_topic_common.outputs.sns_topic_arn]
+
   threshold_crit      = 90
-  ok_actions          = true
-  alarm_actions       = [dependency.sns_topic_common.outputs.sns_topic_arn]
+  ok_actions_crit     = false
+  alarm_actions_crit  = [dependency.sns_topic_common.outputs.sns_topic_arn]
 }

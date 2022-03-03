@@ -1,5 +1,5 @@
 terraform {
-  source = "../../../../../../../../../SERVICE/cloudwatch/metric/alarm/expression_multiple_dimension"
+  source = "../../../../../../../../SERVICE/cloudwatch/metric/alarm/expression_multiple_dimension"
 }
 
 include {
@@ -7,7 +7,7 @@ include {
 }
 
 dependency "sns_topic_common" {
-  config_path = "../../../../../sns/alarm-to-slack/common"
+  config_path = "../../../../sns/alarm-to-slack/common"
 }
 
 inputs = {
