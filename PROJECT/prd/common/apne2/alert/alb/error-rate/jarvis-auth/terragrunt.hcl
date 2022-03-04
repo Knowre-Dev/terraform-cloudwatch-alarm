@@ -24,7 +24,7 @@ inputs = {
 
   query = {
     id                = "e1"
-    expression        = "(m2/m3)*100"
+    expression        = "(m2/(m3+0.1))*100"
     label             = "Error Rate"
   }
   metric_query = [

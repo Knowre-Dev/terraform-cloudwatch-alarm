@@ -24,29 +24,11 @@ inputs = {
   statistic   = "Maximum"
 
   dimensions = {
-    "[sl-dky-data-navy-001]" = {
+    "[nv-common-navy-prd-001]" = {
       CacheClusterId: "sl-dky-data-navy-prd-001"
     },
-    "[sl-dky-data-navy-002]" = {
+    "[nv-common-navy-prd-002]" = {
       CacheClusterId: "sl-dky-data-navy-prd-002"
-    },
-    "[sl-dky-navy-prd-001]" = {
-      CacheClusterId: "sl-dky-navy-prd-001"
-    },
-    "[sl-dky-navy-prd-002]" = {
-      CacheClusterId: "sl-dky-navy-prd-002"
-    },
-    "[sl-jarvis-auth-navy-prd-001]" = {
-      CacheClusterId: "sl-jarvis-auth-navy-prd-001"
-    },
-    "[sl-jarvis-auth-navy-prd-002]" = {
-      CacheClusterId: "sl-jarvis-auth-navy-prd-002"
-    },
-    "[sl-trinity-answer-navy-prd-001]" = {
-      CacheClusterId: "sl-trinity-answer-navy-prd-001"
-    },
-    "[sl-trinity-answer-navy-prd-002]" = {
-      CacheClusterId: "sl-trinity-answer-navy-prd-002"
     }
   }
 
