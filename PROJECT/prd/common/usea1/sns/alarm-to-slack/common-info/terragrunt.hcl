@@ -2,8 +2,6 @@ terraform {
   source = "../../../../../../../SERVICE/sns/topic"
 }
 
-terraform_version_constraint = ">= 0.12"
-
 include {
   path = "${find_in_parent_folders()}"
 }
@@ -13,5 +11,5 @@ dependencies {
 }
 
 inputs = {
-  name = "slack-us-alarm-alb"
+  name = "slack-alarm-common-info"
 }

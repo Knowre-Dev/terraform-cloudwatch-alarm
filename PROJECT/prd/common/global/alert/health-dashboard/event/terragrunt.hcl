@@ -7,7 +7,7 @@ include {
 }
 
 dependency "sns_topic" {
-  config_path = "../../../../apne2/sns/alarm-to-slack/common"
+  config_path = "../../../../apne2/sns/alarm-to-slack/aws-notification"
 }
 
 inputs = {
