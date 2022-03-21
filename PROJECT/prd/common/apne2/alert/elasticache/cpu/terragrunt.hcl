@@ -47,6 +47,42 @@ inputs = {
     },
     "[sl-trinity-answer-navy-prd-002]" = {
       CacheClusterId: "sl-trinity-answer-navy-prd-002"
+    },
+    "[sl-aims-answer-navy-prd-001]" = {
+      CacheClusterId: "sl-aims-answer-navy-prd-001"
+    },
+    "[sl-aims-answer-navy-prd-002]" = {
+      CacheClusterId: "sl-aims-answer-navy-prd-002"
+    },
+    "[sl-aims-curriculum-navy-prd-001]" = {
+      CacheClusterId: "sl-aims-curriculum-navy-prd-001"
+    },
+    "[sl-aims-curriculum-navy-prd-002]" = {
+      CacheClusterId: "sl-aims-curriculum-navy-prd-002"
+    },
+    "[sl-aims-session-navy-prd-001]" = {
+      CacheClusterId: "sl-aims-session-navy-prd-001"
+    },
+    "[sl-aims-session-navy-prd-002]" = {
+      CacheClusterId: "sl-aims-session-navy-prd-002"
+    },
+    "[sl-school-answer-navy-prd-001]" = {
+      CacheClusterId: "sl-school-answer-navy-prd-001"
+    },
+    "[sl-school-answer-navy-prd-002]" = {
+      CacheClusterId: "sl-school-answer-navy-prd-002"
+    },
+    "[sl-school-curriculum-navy-prd-001]" = {
+      CacheClusterId: "sl-school-curriculum-navy-prd-001"
+    },
+    "[sl-school-curriculum-navy-prd-002]" = {
+      CacheClusterId: "sl-school-curriculum-navy-prd-002"
+    },
+    "[sl-school-session-navy-prd-001]" = {
+      CacheClusterId: "sl-school-session-navy-prd-001"
+    },
+    "[sl-school-session-navy-prd-002]" = {
+      CacheClusterId: "sl-school-session-navy-prd-002"
     }
   }
 
