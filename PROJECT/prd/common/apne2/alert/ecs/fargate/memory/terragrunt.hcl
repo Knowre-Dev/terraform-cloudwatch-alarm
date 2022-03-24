@@ -87,6 +87,10 @@ inputs = {
     "[glacl-kr]"     = {
       ClusterName: "glacl-kr"
       ServiceName: "glacl-kr-stable"
+    },
+    "[krschool]"     = {
+      ClusterName: "krschool"
+      ServiceName: "knowre-school-stable"
     }
   }
 

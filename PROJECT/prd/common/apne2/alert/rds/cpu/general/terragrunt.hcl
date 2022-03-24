@@ -38,8 +38,8 @@ inputs = {
     "[sl-adm-red-s]" = {
       DBClusterIdentifier = "sl-adm-red-s"
     },
-    "[sl-aims-red-u]" = {
-      DBClusterIdentifier = "sl-aims-red-u"
+    "[sl-aims-red-s]" = {
+      DBClusterIdentifier = "sl-aims-red-s"
     },
     "[sl-datcntr-pgsql-prd]" = {
       DBClusterIdentifier = "sl-datcntr-pgsql-prd"
