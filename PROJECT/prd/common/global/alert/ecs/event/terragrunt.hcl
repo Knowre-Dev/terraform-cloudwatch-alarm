@@ -15,11 +15,6 @@ inputs = {
   role      = "mgt"
   event_pattern = <<PATTERN
 {
-  "detail-type": [
-    "ECS Task State Change",
-    "ECS Service Action",
-    "ECS Deployment State Change"
-  ],
   "source": [
     "aws.ecs"
   ]

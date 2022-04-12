@@ -38,9 +38,6 @@ resource "aws_cloudwatch_event_rule" "cloudwatch_event_rule" {
 
   event_pattern = <<PATTERN
 {
-  "detail-type": [
-    "AWS Health Event"
-  ],
   "source": [
     "aws.health"
   ]
