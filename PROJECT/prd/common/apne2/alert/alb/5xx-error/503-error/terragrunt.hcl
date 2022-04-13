@@ -6,8 +6,8 @@ include {
   path = "${find_in_parent_folders()}"
 }
 
-dependency "sns_topic_common" {
-  config_path         = "../../../../sns/alarm-to-slack/common"
+dependency "sns_topic_server" {
+  config_path         = "../../../../sns/alarm-to-slack/server"
 }
 
 inputs = {
@@ -45,7 +45,7 @@ inputs = {
       LoadBalancer = "app/mowbore-dump-worker-stable/b3f70a9a8b338b19"
     },
     "[knowre-school-lms]" = {
-      LoadBalancer = "knowre-school-lms-prd/a20e67095faf6ea8"
+      LoadBalancer = "app/knowre-school-lms-prd/a20e67095faf6ea8"
     },
     "[trinity-learning-query-rest]" = {
       LoadBalancer = "app/trinity-learning-query-rest-prd/cd05403944090cae"
@@ -73,7 +73,7 @@ inputs = {
   enable_crit              = true
   threshold_crit           = 1
   ok_actions_crit          = false
-  alarm_actions_crit       = [dependency.sns_topic_common.outputs.sns_topic_arn]
+  alarm_actions_crit       = [dependency.sns_topic_server.outputs.sns_topic_arn]
   # extended_statistic = var.extended_statistic
 }
 
