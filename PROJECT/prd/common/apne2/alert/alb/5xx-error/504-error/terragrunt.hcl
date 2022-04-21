@@ -67,6 +67,9 @@ inputs = {
     },
     "[jarvis-learning]" = {
       LoadBalancer = "app/jarvis-learning-prd/f1c7dc12242fb662"
+    },
+    "[school-trinity-learning-query-rest]" = {
+      LoadBalancer = "app/schoolTrinityLearningQueryPrd/b44568c21819cbb9"
     }
   }
 

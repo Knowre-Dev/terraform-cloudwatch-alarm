@@ -80,6 +80,10 @@ inputs = {
     "[jarvis-learning]" = {
       TargetGroup = "targetgroup/jarvis-learning-prd/eeb18052bb4e7272"
       LoadBalancer = "app/jarvis-learning-prd/f1c7dc12242fb662"
+    },
+    "[school-trinity-learning-query-rest]" = {
+      TargetGroup = "targetgroup/schoolTrinityLearningQueryPrd/f432a95094ce3e89"
+      LoadBalancer = "app/schoolTrinityLearningQueryPrd/b44568c21819cbb9"
     }
   }
 

@@ -91,6 +91,10 @@ inputs = {
     "[krschool]"     = {
       ClusterName: "krschool"
       ServiceName: "knowre-school-stable"
+    },
+    "[school-trinity-learning-query-rest]"     = {
+      ClusterName: "trinity"
+      ServiceName: "school-trinity-learning-query-rest-prd"
     }
   }
 
