@@ -11,5 +11,46 @@ dependencies {
 }
 
 inputs = {
-  name = "slack-alarm-aws-notification"
+  name = "slack-us-alarm-aws-notification"
+  policy = <<EOT
+{
+  "Version": "2008-10-17",
+  "Id": "__default_policy_ID",
+  "Statement": [
+    {
+      "Sid": "__default_statement_ID",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "*"
+      },
+      "Action": [
+        "SNS:GetTopicAttributes",
+        "SNS:SetTopicAttributes",
+        "SNS:AddPermission",
+        "SNS:RemovePermission",
+        "SNS:DeleteTopic",
+        "SNS:Subscribe",
+        "SNS:ListSubscriptionsByTopic",
+        "SNS:Publish",
+        "SNS:Receive"
+      ],
+      "Resource": "arn:aws:sns:us-east-1:468720534852:slack-us-alarm-aws-notification",
+      "Condition": {
+        "StringEquals": {
+          "AWS:SourceOwner": "468720534852"
+        }
+      }
+    },
+    {
+      "Sid": "AllowPublishEvents",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "events.amazonaws.com"
+      },
+      "Action": "sns:Publish",
+      "Resource": "*"
+    }
+  ]
+}
+EOT
 }
