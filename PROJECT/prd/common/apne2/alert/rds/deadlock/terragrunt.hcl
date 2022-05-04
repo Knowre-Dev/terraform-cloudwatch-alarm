@@ -24,12 +24,12 @@ inputs = {
   statistic   = "Maximum"
 
   dimensions = {
-    "[knowre-lms-devopsms985-cluster]" = {
-      DBClusterIdentifier = "knowre-lms-devopsms985-cluster"
-    },
-    "[kr-dky-red-devopsms974]" = {
-      DBClusterIdentifier = "kr-dky-red-devopsms974"
-    },
+    # "[knowre-lms-devopsms985-cluster]" = {
+    #   DBClusterIdentifier = "knowre-lms-devopsms985-cluster"
+    # },
+    # "[kr-dky-red-devopsms974]" = {
+    #   DBClusterIdentifier = "kr-dky-red-devopsms974"
+    # },
     "[sl-acl-red-s]" = {
       DBClusterIdentifier = "sl-acl-red-s"
     },
@@ -78,9 +78,9 @@ inputs = {
     "[sl-lc2ccms-red-mgt]" = {
       DBClusterIdentifier = "sl-lc2ccms-red-mgt"
     },
-    "[sl-lc2csrv-red-prd]" = {
-      DBClusterIdentifier = "sl-lc2csrv-red-prd"
-    },
+    # "[sl-lc2csrv-red-prd]" = {
+    #   DBClusterIdentifier = "sl-lc2csrv-red-prd"
+    # },
     "[sl-mbr-red-s]" = {
       DBClusterIdentifier = "sl-mbr-red-s"
     },

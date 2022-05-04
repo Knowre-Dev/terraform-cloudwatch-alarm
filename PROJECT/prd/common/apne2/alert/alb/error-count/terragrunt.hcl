@@ -65,10 +65,6 @@ inputs = {
       TargetGroup = "targetgroup/trinity-diagnostic-rest-prd/ed25a969422b60e2"
       LoadBalancer = "app/trinity-diagnostic-rest-prd/0aa864ca88cfee0b"
     },
-    "[trinity-learning]" = {
-      TargetGroup = "targetgroup/trinity-learning-prd/1e4a0e2b1662d337"
-      LoadBalancer = "app/trinity-learning-prd/3a8ad236dafc9abc"
-    },
     "[jarvis-auth]" = {
       TargetGroup = "targetgroup/jarvis-auth-prd/9b14c0f8e3a9085e"
       LoadBalancer = "app/jarvis-auth-prd/15199c16c54403f0"

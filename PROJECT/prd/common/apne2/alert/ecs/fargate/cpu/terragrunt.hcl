@@ -72,10 +72,6 @@ inputs = {
       ClusterName: "locian0kr"
       ServiceName: "locian0kr-stable"
     },
-    "[trinity-learning]"     = {
-      ClusterName: "trinity"
-      ServiceName: "trinity-learning-prd"
-    },
     "[trinity-diagnostic-rest]"     = {
       ClusterName: "trinity"
       ServiceName: "trinity-diagnostic-rest-prd"

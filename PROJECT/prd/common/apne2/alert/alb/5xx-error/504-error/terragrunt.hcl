@@ -37,10 +37,9 @@ inputs = {
     "[krsqr]" = {
       LoadBalancer = "app/krsqr-stable/17b1563bfe7f7b1a"
     },
-    # "[mowbore-sl]" = {
-    #   TargetGroup = "targetgroup/mowbore-sl-stable/3ea9d3b70880981f"
-    #   LoadBalancer = "app/mowbore-sl-stable/875688c2a52379f9"
-    # }
+    "[mowbore-sl]" = {
+      LoadBalancer = "app/mowbore-sl-stable/875688c2a52379f9"
+    }
     "[mowbore-dump-worker]" = {
       LoadBalancer = "app/mowbore-dump-worker-stable/b3f70a9a8b338b19"
     },
@@ -55,9 +54,6 @@ inputs = {
     },
     "[trinity-diagnostic-rest]" = {
       LoadBalancer = "app/trinity-diagnostic-rest-prd/0aa864ca88cfee0b"
-    },
-    "[trinity-learning]" = {
-      LoadBalancer = "app/trinity-learning-prd/3a8ad236dafc9abc"
     },
     "[jarvis-auth]" = {
       LoadBalancer = "app/jarvis-auth-prd/15199c16c54403f0"
