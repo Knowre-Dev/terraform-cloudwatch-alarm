@@ -44,9 +44,12 @@ inputs = {
     "[sl-datcntr-pgsql-prd]" = {
       DBClusterIdentifier = "sl-datcntr-pgsql-prd"
     },
-    "[sl-dky-red-s]" = {
-      DBClusterIdentifier = "sl-dky-red-s"
+    "[sl-dky-red-s-blue]" = {
+      DBClusterIdentifier = "sl-dky-red-s-blue"
     },
+    # "[sl-dky-red-s]" = {
+    #   DBClusterIdentifier = "sl-dky-red-s"
+    # },
     "[sl-grafana-red-mgt]" = {
       DBClusterIdentifier = "sl-grafana-red-mgt"
     },

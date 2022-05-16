@@ -7,18 +7,17 @@ include {
 }
 
 dependency "sns_topic" {
-  config_path = "../../../../apne2/sns/alarm-to-slack/ecs-event"
+  config_path = "../../../../apne2/sns/alarm-to-slack/db-event"
 }
 
 inputs = {
-  name      = "aws-ecs-events"
+  name      = "aws-rds-events"
   role      = "mgt"
   event_pattern = <<PATTERN
 {
   "source": [
-    "aws.ecs"
-  ],
-  "detail-type": ["ECS Container Instance State Change", "ECS Service Action"]
+    "aws.rds"
+  ]
 }
 PATTERN
 
