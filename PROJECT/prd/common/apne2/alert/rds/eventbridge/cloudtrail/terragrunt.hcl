@@ -1,5 +1,5 @@
 terraform {
-  source = "../../../../../../../SERVICE/cloudwatch/event/event-bridge"
+  source = "../../../../../../../../SERVICE/cloudwatch/event/event-bridge"
 }
 
 include {
@@ -7,7 +7,7 @@ include {
 }
 
 dependency "sns_topic" {
-  config_path = "../../../../apne2/sns/alarm-to-slack/db-event"
+  config_path = "../../../../../apne2/sns/alarm-to-slack/db-event"
 }
 
 inputs = {
@@ -17,6 +17,9 @@ inputs = {
 {
   "source": [
     "aws.rds"
+  ],
+  "detail-type": [
+    "AWS Console Sign In via CloudTrail"
   ]
 }
 PATTERN
