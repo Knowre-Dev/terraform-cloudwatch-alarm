@@ -42,12 +42,9 @@ inputs = {
     "[sl-datcntr-pgsql-prd]" = {
       DBClusterIdentifier = "sl-datcntr-pgsql-prd"
     },
-    "[sl-dky-red-s-blue]" = {
-      DBClusterIdentifier = "sl-dky-red-s-blue"
+    "[sl-dky-red-s]" = {
+      DBClusterIdentifier = "sl-dky-red-s"
     },
-    # "[sl-dky-red-s]" = {
-    #   DBClusterIdentifier = "sl-dky-red-s"
-    # },
     "[sl-grafana-red-mgt]" = {
       DBClusterIdentifier = "sl-grafana-red-mgt"
     },
@@ -102,8 +99,8 @@ inputs = {
     "[sl-trinity-league-red-prd]" = {
       DBClusterIdentifier = "sl-trinity-league-red-prd"
     },
-    "[sl-usp-red-d]" = {
-      DBClusterIdentifier = "sl-usp-red-d"
+    "[sl-knowre-school]" = {
+      DBClusterIdentifier = "prd-apne2-kr-knowre-school-aurora-serverless"
     }
   }
 

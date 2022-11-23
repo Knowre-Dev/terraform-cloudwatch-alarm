@@ -22,7 +22,7 @@ inputs = {
 
   cw_namespace        = "AWS/RDS"
   metric_name         = "CPUUtilization"
-  statistic           = "Average"
+  statistic           = "Maximum"
 
   # dimensions = var.dimensions
   dimensions = {
@@ -34,6 +34,9 @@ inputs = {
     },
     "[nv-usp-red-s]" = {
       DBClusterIdentifier = "nv-usp-red-s"
+    },
+    "[nv-usp-red-p]" = {
+      DBClusterIdentifier = "nv-usp-red-p"
     }
   }
 

@@ -45,7 +45,8 @@ inputs = {
     "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-sqr-red-s",
     "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-summit-score-admin-red-prd",
     "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-trinity-diagnostic-red-prd",
-    "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-trinity-league-red-prd"
+    "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-trinity-league-red-prd",
+    "arn:aws:rds:ap-northeast-2:468720534852:cluster:prd-apne2-kr-knowre-school-aurora-serverless"
   ]
 }
 PATTERN

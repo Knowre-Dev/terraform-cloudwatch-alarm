@@ -32,6 +32,9 @@ inputs = {
     },
     "[nv-usp-red-s]" = {
       DBClusterIdentifier = "nv-usp-red-s"
+    },
+    "[nv-usp-red-p]" = {
+      DBClusterIdentifier = "nv-usp-red-p"
     }
   }
 
