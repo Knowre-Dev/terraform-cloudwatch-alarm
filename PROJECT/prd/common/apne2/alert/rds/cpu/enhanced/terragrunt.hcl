@@ -25,26 +25,17 @@ inputs = {
 
   # dimensions = var.dimensions
   dimensions = {
-    "[knowre-lms-devopsms985-cluster]" = {
-      "DBClusterIdentifier" = "knowre-lms-devopsms985-cluster"
-    },
-    "[knowre-lms-devopsms985-cluster]" = {
-      "DBClusterIdentifier" = "kr-dky-red-devopsms974"
-    },
-    "[knowre-lms-devopsms985-cluster]" = {
+    "[sl-acl-red-s-cluster]" = {
       "DBClusterIdentifier" = "sl-acl-red-s"
     },
-    "[knowre-lms-devopsms985-cluster]" = {
+    "[sl-adm-red-s-cluster]" = {
       "DBClusterIdentifier" = "sl-adm-red-s"
     },
-    "[knowre-lms-devopsms985-cluster]" = {
-      "DBClusterIdentifier" = "sl-aims-red-u"
-    },
-    "[knowre-lms-devopsms985-cluster]" = {
+    "[datcntr-pgsql-cluster]" = {
       "DBClusterIdentifier" = "sl-datcntr-pgsql-prd"
     },
-    "[knowre-lms-devopsms985-cluster]" = {
-      "DBClusterIdentifier" = "sl-dky-red-s"
+    "[summit-score-cluster]" = {
+      "DBClusterIdentifier" = "prd-apne2-kr-summit-score-aurora-cluster"
     },
     "[knowre-lms-devopsms985-cluster]" = {
       "DBClusterIdentifier" = "sl-grafana-red-mgt"

@@ -44,8 +44,8 @@ inputs = {
     "[sl-datcntr-pgsql-prd]" = {
       DBClusterIdentifier = "sl-datcntr-pgsql-prd"
     },
-    "[sl-dky-red-s]" = {
-      DBClusterIdentifier = "sl-dky-red-s"
+    "[prd-apne2-kr-summit-score]" = {
+      DBClusterIdentifier = "prd-apne2-kr-summit-score-aurora-cluster"
     },
     "[sl-grafana-red-mgt]" = {
       DBClusterIdentifier = "sl-grafana-red-mgt"
@@ -62,9 +62,9 @@ inputs = {
     "[sl-jarvis-auth-red-prd]" = {
       DBClusterIdentifier = "sl-jarvis-auth-red-prd"
     },
-    "[sl-jarvis-learning-red-prd]" = {
-      DBClusterIdentifier = "sl-jarvis-learning-red-prd"
-    },
+    # "[sl-jarvis-learning-red-prd]" = {
+    #   DBClusterIdentifier = "sl-jarvis-learning-red-prd"
+    # },
     "[sl-jarvis-payment-red-prd]" = {
       DBClusterIdentifier = "sl-jarvis-payment-red-prd"
     },
@@ -102,7 +102,7 @@ inputs = {
       DBClusterIdentifier = "sl-trinity-league-red-prd"
     },
     "[sl-knowre-school]" = {
-      DBClusterIdentifier = "prd-apne2-kr-knowre-school-aurora-serverless"
+      DBClusterIdentifier = "prd-apne2-kr-knowre-school-aurora-cluster"
     }
   }
 

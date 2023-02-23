@@ -1,5 +1,5 @@
 terraform {
-  source = "../../../../../../../../SERVICE/terraform-service-aws-cloudwatch-alert/cloudwatch/metric/alarm/generic_multiple_dimension"
+  source = "../../../../../../../SERVICE/cloudwatch/metric/alarm/generic_multiple_dimension"
 }
 
 include {
@@ -36,36 +36,36 @@ inputs = {
     "[sl-dky-navy-prd-002]" = {
       CacheClusterId: "sl-dky-navy-prd-002"
     },
-    "[sl-jarvis-auth-navy-prd-001]" = {
-      CacheClusterId: "sl-jarvis-auth-navy-prd-001"
-    },
-    "[sl-jarvis-auth-navy-prd-002]" = {
-      CacheClusterId: "sl-jarvis-auth-navy-prd-002"
-    },
+    # "[sl-jarvis-auth-navy-prd-001]" = {
+    #   CacheClusterId: "sl-jarvis-auth-navy-prd-001"
+    # },
+    # "[sl-jarvis-auth-navy-prd-002]" = {
+    #   CacheClusterId: "sl-jarvis-auth-navy-prd-002"
+    # },
     "[sl-trinity-answer-navy-prd-001]" = {
       CacheClusterId: "sl-trinity-answer-navy-prd-001"
     },
     "[sl-trinity-answer-navy-prd-002]" = {
       CacheClusterId: "sl-trinity-answer-navy-prd-002"
     },
-    "[sl-aims-answer-navy-prd-001]" = {
-      CacheClusterId: "sl-aims-answer-navy-prd-001"
-    },
-    "[sl-aims-answer-navy-prd-002]" = {
-      CacheClusterId: "sl-aims-answer-navy-prd-002"
-    },
-    "[sl-aims-curriculum-navy-prd-001]" = {
-      CacheClusterId: "sl-aims-curriculum-navy-prd-001"
-    },
-    "[sl-aims-curriculum-navy-prd-002]" = {
-      CacheClusterId: "sl-aims-curriculum-navy-prd-002"
-    },
-    "[sl-aims-session-navy-prd-001]" = {
-      CacheClusterId: "sl-aims-session-navy-prd-001"
-    },
-    "[sl-aims-session-navy-prd-002]" = {
-      CacheClusterId: "sl-aims-session-navy-prd-002"
-    },
+    # "[sl-aims-answer-navy-prd-001]" = {
+    #   CacheClusterId: "sl-aims-answer-navy-prd-001"
+    # },
+    # "[sl-aims-answer-navy-prd-002]" = {
+    #   CacheClusterId: "sl-aims-answer-navy-prd-002"
+    # },
+    # "[sl-aims-curriculum-navy-prd-001]" = {
+    #   CacheClusterId: "sl-aims-curriculum-navy-prd-001"
+    # },
+    # "[sl-aims-curriculum-navy-prd-002]" = {
+    #   CacheClusterId: "sl-aims-curriculum-navy-prd-002"
+    # },
+    # "[sl-aims-session-navy-prd-001]" = {
+    #   CacheClusterId: "sl-aims-session-navy-prd-001"
+    # },
+    # "[sl-aims-session-navy-prd-002]" = {
+    #   CacheClusterId: "sl-aims-session-navy-prd-002"
+    # },
     "[sl-school-answer-navy-prd-001]" = {
       CacheClusterId: "sl-school-answer-navy-prd-001"
     },

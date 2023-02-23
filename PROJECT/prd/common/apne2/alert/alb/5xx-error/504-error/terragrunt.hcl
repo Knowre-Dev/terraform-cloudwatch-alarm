@@ -55,15 +55,15 @@ inputs = {
     "[trinity-diagnostic-rest]" = {
       LoadBalancer = "app/trinity-diagnostic-rest-prd/0aa864ca88cfee0b"
     },
-    "[jarvis-auth]" = {
-      LoadBalancer = "app/jarvis-auth-prd/15199c16c54403f0"
-    },
-    "[jarvis-payment]" = {
-      LoadBalancer = "app/jarvis-payment-prd/bc2dc0435a3914a2"
-    },
-    "[jarvis-learning]" = {
-      LoadBalancer = "app/jarvis-learning-prd/f1c7dc12242fb662"
-    },
+    # "[jarvis-auth]" = {
+    #   LoadBalancer = "app/jarvis-auth-prd/15199c16c54403f0"
+    # },
+    # "[jarvis-payment]" = {
+    #   LoadBalancer = "app/jarvis-payment-prd/bc2dc0435a3914a2"
+    # },
+    # "[jarvis-learning]" = {
+    #   LoadBalancer = "app/jarvis-learning-prd/f1c7dc12242fb662"
+    # },
     "[school-trinity-learning-query-rest]" = {
       LoadBalancer = "app/schoolTrinityLearningQueryPrd/b44568c21819cbb9"
     }

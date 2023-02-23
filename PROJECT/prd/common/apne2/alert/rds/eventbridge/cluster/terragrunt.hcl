@@ -28,7 +28,7 @@ inputs = {
     "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-acl-red-s",
     "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-adm-red-s",
     "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-datcntr-pgsql-prd",
-    "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-dky-red-s",
+    "arn:aws:rds:ap-northeast-2:468720534852:cluster:prd-apne2-kr-summit-score-aurora-cluster",
     "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-grafana-red-mgt",
     "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-hexagon-cms-prd",
     "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-hexagon-red-prd",
@@ -46,7 +46,7 @@ inputs = {
     "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-summit-score-admin-red-prd",
     "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-trinity-diagnostic-red-prd",
     "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-trinity-league-red-prd",
-    "arn:aws:rds:ap-northeast-2:468720534852:cluster:prd-apne2-kr-knowre-school-aurora-serverless"
+    "arn:aws:rds:ap-northeast-2:468720534852:cluster:prd-apne2-kr-knowre-school-aurora-cluster"
   ]
 }
 PATTERN

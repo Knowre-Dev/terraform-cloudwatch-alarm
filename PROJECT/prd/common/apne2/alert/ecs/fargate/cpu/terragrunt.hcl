@@ -44,18 +44,18 @@ inputs = {
       ClusterName: "knowre-school"
       ServiceName: "knowre-school-lms-prd"
     },
-    "[jarvis-payment]"     = {
-      ClusterName: "jarvis"
-      ServiceName: "jarvis-payment-prd"
-    },
-    "[jarvis-auth]"     = {
-      ClusterName: "jarvis"
-      ServiceName: "jarvis-auth-prd"
-    },
-    "[jarvis-learning]"     = {
-      ClusterName: "jarvis"
-      ServiceName: "jarvis-learning-prd"
-    },
+    # "[jarvis-payment]"     = {
+    #   ClusterName: "jarvis"
+    #   ServiceName: "jarvis-payment-prd"
+    # },
+    # "[jarvis-auth]"     = {
+    #   ClusterName: "jarvis"
+    #   ServiceName: "jarvis-auth-prd"
+    # },
+    # "[jarvis-learning]"     = {
+    #   ClusterName: "jarvis"
+    #   ServiceName: "jarvis-learning-prd"
+    # },
     "[krdky]"     = {
       ClusterName: "krdky"
       ServiceName: "krdky-stable"

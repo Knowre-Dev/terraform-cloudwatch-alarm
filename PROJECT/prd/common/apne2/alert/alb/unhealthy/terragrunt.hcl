@@ -65,18 +65,18 @@ inputs = {
       TargetGroup = "targetgroup/trinity-diagnostic-rest-prd/ed25a969422b60e2"
       LoadBalancer = "app/trinity-diagnostic-rest-prd/0aa864ca88cfee0b"
     },
-    "[jarvis-auth]" = {
-      TargetGroup = "targetgroup/jarvis-auth-prd/9b14c0f8e3a9085e"
-      LoadBalancer = "app/jarvis-auth-prd/15199c16c54403f0"
-    },
-    "[jarvis-payment]" = {
-      TargetGroup = "targetgroup/jarvis-payment-prd/05ae1a5e6aa079e7"
-      LoadBalancer = "app/jarvis-payment-prd/bc2dc0435a3914a2"
-    },
-    "[jarvis-learning]" = {
-      TargetGroup = "targetgroup/jarvis-learning-prd/eeb18052bb4e7272"
-      LoadBalancer = "app/jarvis-learning-prd/f1c7dc12242fb662"
-    },
+    # "[jarvis-auth]" = {
+    #   TargetGroup = "targetgroup/jarvis-auth-prd/9b14c0f8e3a9085e"
+    #   LoadBalancer = "app/jarvis-auth-prd/15199c16c54403f0"
+    # },
+    # "[jarvis-payment]" = {
+    #   TargetGroup = "targetgroup/jarvis-payment-prd/05ae1a5e6aa079e7"
+    #   LoadBalancer = "app/jarvis-payment-prd/bc2dc0435a3914a2"
+    # },
+    # "[jarvis-learning]" = {
+    #   TargetGroup = "targetgroup/jarvis-learning-prd/eeb18052bb4e7272"
+    #   LoadBalancer = "app/jarvis-learning-prd/f1c7dc12242fb662"
+    # },
     "[school-trinity-learning-query-rest]" = {
       TargetGroup = "targetgroup/schoolTrinityLearningQueryPrd/f432a95094ce3e89"
       LoadBalancer = "app/schoolTrinityLearningQueryPrd/b44568c21819cbb9"
