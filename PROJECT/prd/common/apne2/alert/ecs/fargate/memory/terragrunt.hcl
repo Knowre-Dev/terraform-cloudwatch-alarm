@@ -28,10 +28,10 @@ inputs = {
       ClusterName: "hexagon"
       ServiceName: "hexagon-strapi-mgt"
     },
-    "[mowbore]"     = {
-      ClusterName: "mowbore"
-      ServiceName: "mowbore-sl-stable"
-    },
+    # "[mowbore]"     = {
+    #   ClusterName: "mowbore"
+    #   ServiceName: "mowbore-sl-stable"
+    # },
     "[mowbore-dump-worker]"     = {
       ClusterName: "mowbore"
       ServiceName: "mowbore-dump-worker-stable"

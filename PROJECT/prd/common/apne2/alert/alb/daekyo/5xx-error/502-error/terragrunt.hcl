@@ -10,6 +10,10 @@ dependency "sns_topic_common" {
   config_path         = "../../../../../sns/alarm-to-slack/common"
 }
 
+dependency "sns_topic_server" {
+  config_path         = "../../../../../sns/alarm-to-slack/server"
+}
+
 inputs = {
   alarm_name          = "502 Server Error"
   alarm_description   = "502 Server Error"
@@ -33,7 +37,7 @@ inputs = {
   enable_crit              = true
   threshold_crit           = 1
   ok_actions_crit          = false
-  alarm_actions_crit       = [dependency.sns_topic_common.outputs.sns_topic_arn]
+  alarm_actions_crit       = [dependency.sns_topic_common.outputs.sns_topic_arn, dependency.sns_topic_server.outputs.sns_topic_arn]
   # extended_statistic = var.extended_statistic
 }
 

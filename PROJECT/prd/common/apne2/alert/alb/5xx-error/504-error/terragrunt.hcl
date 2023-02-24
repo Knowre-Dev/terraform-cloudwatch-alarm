@@ -25,9 +25,9 @@ inputs = {
 
   # dimensions = var.dimensions
   dimensions = {
-    "[dky]" = {
-      LoadBalancer = "app/dky-stable/2fbfb438da5302a7"
-    },
+    # "[dky]" = {
+    #   LoadBalancer = "app/dky-stable/2fbfb438da5302a7"
+    # },
     "[locaian0kr]" = {
       LoadBalancer = "app/locian0kr-stable/5118b11b02a7dad9"
     },
