@@ -6,8 +6,8 @@ include {
   path = "${find_in_parent_folders()}"
 }
 
-dependency "sns_topic_common" {
-  config_path = "../../../sns/alarm-to-slack/common"
+dependency "sns_topic_mgt" {
+  config_path = "../../../sns/alarm-to-slack/mgt"
 }
 
 inputs = {
@@ -32,9 +32,9 @@ inputs = {
 
   threshold_warn           = 70
   ok_actions_warn          = true
-  alarm_actions_warn       = [dependency.sns_topic_common.outputs.sns_topic_arn]
+  alarm_actions_warn       = [dependency.sns_topic_mgt.outputs.sns_topic_arn]
 
   threshold_crit           = 90
   ok_actions_crit          = false
-  alarm_actions_crit       = [dependency.sns_topic_common.outputs.sns_topic_arn]
+  alarm_actions_crit       = [dependency.sns_topic_mgt.outputs.sns_topic_arn]
 }

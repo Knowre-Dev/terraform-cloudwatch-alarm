@@ -38,9 +38,9 @@ inputs = {
     "[sl-adm-red-s]" = {
       DBClusterIdentifier = "sl-adm-red-s"
     },
-    "[sl-aims-red-s]" = {
-      DBClusterIdentifier = "sl-aims-red-s"
-    },
+    # "[sl-aims-red-s]" = {
+    #   DBClusterIdentifier = "sl-aims-red-s"
+    # },
     "[sl-datcntr-pgsql-prd]" = {
       DBClusterIdentifier = "sl-datcntr-pgsql-prd"
     },
@@ -59,15 +59,15 @@ inputs = {
     "[sl-hexagon-strapi-red-mgt]" = {
       DBClusterIdentifier = "sl-hexagon-strapi-red-mgt"
     },
-    "[sl-jarvis-auth-red-prd]" = {
-      DBClusterIdentifier = "sl-jarvis-auth-red-prd"
-    },
+    # "[sl-jarvis-auth-red-prd]" = {
+    #   DBClusterIdentifier = "sl-jarvis-auth-red-prd"
+    # },
     # "[sl-jarvis-learning-red-prd]" = {
     #   DBClusterIdentifier = "sl-jarvis-learning-red-prd"
     # },
-    "[sl-jarvis-payment-red-prd]" = {
-      DBClusterIdentifier = "sl-jarvis-payment-red-prd"
-    },
+    # "[sl-jarvis-payment-red-prd]" = {
+    #   DBClusterIdentifier = "sl-jarvis-payment-red-prd"
+    # },
     "[sl-knowre-school-auth-red-prd]" = {
       DBClusterIdentifier = "sl-knowre-school-auth-red-prd"
     },
