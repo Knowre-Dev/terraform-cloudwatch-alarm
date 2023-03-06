@@ -31,8 +31,8 @@ inputs = {
     "[nv-lcu-red-s]" = {
       DBClusterIdentifier = "nv-lcu-red-s"
     },
-    "[nv-usp-red-s]" = {
-      DBClusterIdentifier = "nv-usp-red-s"
+    "[prd-usea1-us-school-plus-aurora-cluster-cluster]" = {
+      DBClusterIdentifier = "prd-usea1-us-school-plus-aurora-cluster-cluster"
     }
   }
   
