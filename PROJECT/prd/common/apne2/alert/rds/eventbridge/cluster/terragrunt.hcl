@@ -37,7 +37,7 @@ inputs = {
     "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-knowre-school-lms-red-prd",
     "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-lc0-red-s",
     "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-lc2ccms-red-mgt",
-    "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-mbr-red-s",
+    "arn:aws:rds:ap-northeast-2:468720534852:cluster:prd-apne2-kr-mowbore-aurora-cluster",
     "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-mngment-red-mgt",
     "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-sqr-red-s",
     "arn:aws:rds:ap-northeast-2:468720534852:cluster:sl-summit-score-admin-red-prd",

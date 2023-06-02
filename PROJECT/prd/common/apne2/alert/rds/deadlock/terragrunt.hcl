@@ -81,8 +81,8 @@ inputs = {
     # "[sl-lc2csrv-red-prd]" = {
     #   DBClusterIdentifier = "sl-lc2csrv-red-prd"
     # },
-    "[sl-mbr-red-s]" = {
-      DBClusterIdentifier = "sl-mbr-red-s"
+    "[prd-apne2-kr-mowbore]" = {
+      DBClusterIdentifier = "prd-apne2-kr-mowbore-aurora-cluster"
     },
     "[sl-mngment-red-mgt]" = {
       DBClusterIdentifier = "sl-mngment-red-mgt"

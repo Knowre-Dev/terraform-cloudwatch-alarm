@@ -11,8 +11,8 @@ dependency "sns_topic_common" {
 }
 
 inputs = {
-  alarm_name          = "[jarvis-auth] Target Availability Status"
-  alarm_description   = "[jarvis-auth] Target Availability Status"
+  alarm_name          = "[mowbore-nv] Target Availability Status"
+  alarm_description   = "[mowbore-nv] Target Availability Status"
   comparison_operator = "LessThanOrEqualToThreshold"
   evaluation_periods  = 1
   unit                = "Count"
