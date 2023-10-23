@@ -51,11 +51,11 @@ inputs = {
     "[sl-hexagon-cms-prd]" = {
       DBClusterIdentifier = "sl-hexagon-cms-prd"
     },
-    "[sl-hexagon-red-prd]" = {
-      DBClusterIdentifier = "sl-hexagon-red-prd"
+    "[prd-apne2-kr-hexagon-cms-aurora-cluster]" = {
+      DBClusterIdentifier = "prd-apne2-kr-hexagon-cms-aurora-cluster"
     },
-    "[sl-hexagon-strapi-red-mgt]" = {
-      DBClusterIdentifier = "sl-hexagon-strapi-red-mgt"
+    "[prd-apne2-kr-hexagon-aurora-cluster]" = {
+      DBClusterIdentifier = "prd-apne2-kr-hexagon-aurora-cluster"
     },
     # "[sl-jarvis-auth-red-prd]" = {
     #   DBClusterIdentifier = "sl-jarvis-auth-red-prd"

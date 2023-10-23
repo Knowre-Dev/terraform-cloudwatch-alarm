@@ -50,12 +50,12 @@ inputs = {
   # alarm_actions_info       = []
   
   enable_warn              = true
-  threshold_warn           = 30
+  threshold_warn           = 10
   ok_actions_warn          = true
   alarm_actions_warn       = [dependency.sns_topic_common.outputs.sns_topic_arn]
 
   enable_crit              = true
-  threshold_crit           = 10
+  threshold_crit           = 5
   ok_actions_crit          = false
   alarm_actions_crit       = [dependency.sns_topic_common.outputs.sns_topic_arn]
 

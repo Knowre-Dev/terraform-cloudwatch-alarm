@@ -50,15 +50,15 @@ inputs = {
     "[sl-grafana-red-mgt]" = {
       DBClusterIdentifier = "sl-grafana-red-mgt"
     },
-    "[sl-hexagon-cms-prd]" = {
-      DBClusterIdentifier = "sl-hexagon-cms-prd"
+    "[prd-apne2-kr-hexagon-cms-aurora-cluster]" = {
+      DBClusterIdentifier = "prd-apne2-kr-hexagon-cms-aurora-cluster"
     },
-    "[sl-hexagon-red-prd]" = {
-      DBClusterIdentifier = "sl-hexagon-red-prd"
+    "[prd-apne2-kr-hexagon-aurora-cluster]" = {
+      DBClusterIdentifier = "prd-apne2-kr-hexagon-aurora-cluster"
     },
-    "[sl-hexagon-strapi-red-mgt]" = {
-      DBClusterIdentifier = "sl-hexagon-strapi-red-mgt"
-    },
+    # "[sl-hexagon-strapi-red-mgt]" = {
+    #   DBClusterIdentifier = "sl-hexagon-strapi-red-mgt"
+    # },
     # "[sl-jarvis-auth-red-prd]" = {
     #   DBClusterIdentifier = "sl-jarvis-auth-red-prd"
     # },

@@ -12,9 +12,9 @@ dependency "sns_topic_mgt" {
   config_path = "../../../../apne2/sns/alarm-to-slack/mgt"
 }
 
-# dependency "sns_topic_us_mgt" {
-#   config_path = "../../../../usea1/sns/alarm-to-slack/mgt"
-# }
+dependency "sns_topic_us_mgt" {
+  config_path = "../../../../usea1/sns/alarm-to-slack/mgt"
+}
 
 inputs = {
   name                = "slack-mgt"
@@ -23,6 +23,6 @@ inputs = {
   slack_channel_id    = "C04RJBN5MN3"
   slack_workspace_id  = "T024UHAGF"
   workspace_name      = "slack-mgt"
-  alarm_sns_topic_arns = [dependency.sns_topic_mgt.outputs.sns_topic_arn]
-  # alarm_sns_topic_arns = [dependency.sns_topic_mgt.outputs.sns_topic_arn, dependency.sns_topic_us_mgt.outputs.sns_topic_arn]
+  # alarm_sns_topic_arns = [dependency.sns_topic_mgt.outputs.sns_topic_arn]
+  alarm_sns_topic_arns = [dependency.sns_topic_mgt.outputs.sns_topic_arn, dependency.sns_topic_us_mgt.outputs.sns_topic_arn]
 }
