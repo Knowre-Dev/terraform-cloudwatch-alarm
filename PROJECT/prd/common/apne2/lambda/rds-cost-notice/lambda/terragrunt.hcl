@@ -13,13 +13,14 @@ inputs ={
   name          = "rds-cost-notice"
 
   handler       = "main"
-  runtime       = "go1.x"
+  runtime       = "provided.al2"
+  architectures = ["arm64"]
 
   local_existing_package = "./lambda.zip"
 
   environment_variables = {
     LogLevel    = "INFO"
-    SLACK_BOT_TOKEN  = "xoxb-2164588559-4894598060948-pBHfsHzJo0GL3fnw41W42oPV"
+    SLACK_BOT_TOKEN  = "xoxb-2164588559-4894598060948-ghlsxj11ZJHRGz8ZZIcwqYYd"
     SLACK_CHANNEL = "C186SJGP8" #"C04S1BLHL3E" #"C186SJGP8"
   }
 

@@ -30,11 +30,11 @@ inputs = {
     }
   }
 
-  threshold_warn           = 70
-  ok_actions_warn          = true
-  alarm_actions_warn       = [dependency.sns_topic_mgt.outputs.sns_topic_arn]
+  # threshold_warn           = 70
+  # ok_actions_warn          = true
+  # alarm_actions_warn       = [dependency.sns_topic_mgt.outputs.sns_topic_arn]
 
   threshold_crit           = 90
-  ok_actions_crit          = false
+  ok_actions_crit          = true
   alarm_actions_crit       = [dependency.sns_topic_mgt.outputs.sns_topic_arn]
 }

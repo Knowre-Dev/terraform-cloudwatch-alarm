@@ -13,13 +13,14 @@ inputs ={
   name          = "slack-user-notice"
 
   handler       = "main"
-  runtime       = "go1.x"
+  runtime       = "provided.al2"
+  architectures = ["arm64"]
 
   local_existing_package = "./lambda.zip"
 
   environment_variables = {
     LogLevel    = "INFO"
-    SlackToken  = "xoxb-2164588559-4894598060948-pBHfsHzJo0GL3fnw41W42oPV"
+    SlackToken  = "xoxb-2164588559-4894598060948-ghlsxj11ZJHRGz8ZZIcwqYYd"
   }
 
   timeout = 60
