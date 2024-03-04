@@ -20,7 +20,6 @@ inputs ={
 
   environment_variables = {
     LogLevel    = "INFO"
-    SLACK_BOT_TOKEN  = "xoxb-2164588559-4894598060948-ghlsxj11ZJHRGz8ZZIcwqYYd"
     SLACK_CHANNEL = "C186SJGP8" #"C04S1BLHL3E" #"C186SJGP8"
   }
 

@@ -20,7 +20,7 @@ inputs ={
 
   environment_variables = {
     LogLevel    = "INFO"
-    SlackToken  = "xoxb-2164588559-4894598060948-ghlsxj11ZJHRGz8ZZIcwqYYd"
+    SlackToken  = ""
   }
 
   timeout = 60
