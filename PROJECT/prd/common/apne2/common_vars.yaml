@@ -1,0 +1,27 @@
+---
+aws_account_id: "468720534852"
+region: "ap-northeast-2"
+region_code: "apne2"
+env: "prd"
+country: "kr"
+az_ids: ["ap-northeast-2a", "ap-northeast-2c", "ap-northeast-2b"]
+ssh_key_name: "knowre-development-ssh-key"
+vpc_id: "vpc-062ef72cc16588593"
+acm_certificate_arn: "arn:aws:acm:ap-northeast-2:468720534852:certificate/a2bda58a-5194-48a7-a4ef-eb3b1c4a4d3b"
+
+# VPC Settings
+vpc_cidr: "10.11.0.0/16"
+
+# Subnet Settings
+#   - public
+public_subnet_ids: ["subnet-0aaac4cae2c4e31bc", "subnet-091244f526753d52c", "subnet-01060f2fd2bad7b35"]
+
+# Subnet Settings
+#   - private
+private_subnet_ids: ["subnet-0fbab8bd9f8dcd155", "subnet-02d2c6356acfd5a01", "subnet-0f43ff57ee458843c"]
+
+# Office IP Address
+office_ip_address: "175.209.15.242"
+
+main_domain: "knowre.com"
+route53_zone_name: "knowre.com"

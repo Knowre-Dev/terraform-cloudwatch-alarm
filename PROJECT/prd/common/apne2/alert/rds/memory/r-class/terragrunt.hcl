@@ -11,12 +11,12 @@ dependency "sns_topic_db" {
 }
 
 inputs = {
-  alarm_name          = "RDS Free Memory"
-  alarm_description   = "RDS Free Memory"
+  alarm_name          = "RDS Freeable Memory"
+  alarm_description   = "RDS Freeable Memory"
   comparison_operator = "LessThanOrEqualToThreshold"
   evaluation_periods  = 1
 
-  unit                = "Percent"
+  unit                = "Bytes"
   period              = 60
   datapoints_to_alarm = 1
 

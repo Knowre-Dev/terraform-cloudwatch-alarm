@@ -11,12 +11,12 @@ dependency "sns_topic_db" {
 }
 
 inputs = {
-  alarm_name          = "RDS Free Memory"
-  alarm_description   = "RDS Free Memory"
+  alarm_name          = "RDS Freeable Memory"
+  alarm_description   = "RDS Freeable Memory"
   comparison_operator = "LessThanOrEqualToThreshold"
   evaluation_periods  = 1
 
-  unit                = "Percent"
+  unit                = "Bytes"
   period              = 60
   datapoints_to_alarm = 1
 
@@ -43,7 +43,7 @@ inputs = {
     }
   }
 
-  threshold_warn           = 1073741824 # 1GB
+  threshold_warn           = 838860800 # 800MB
   ok_actions_warn          = true
   alarm_actions_warn       = [dependency.sns_topic_db.outputs.sns_topic_arn]
 
