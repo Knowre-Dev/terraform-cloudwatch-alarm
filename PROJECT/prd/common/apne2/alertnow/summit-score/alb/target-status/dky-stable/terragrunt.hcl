@@ -56,7 +56,7 @@ inputs = {
 
   enable_crit              = true
   threshold_crit           = 40
-  ok_actions_crit          = false
+  ok_actions_crit          = true
   alarm_actions_crit       = [dependency.sns_topic.outputs.sns_topic_arn]
 
 }

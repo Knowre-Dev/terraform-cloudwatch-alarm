@@ -14,10 +14,10 @@ inputs = {
   alarm_name          = "[AlertNow] Lambda ConcurrentExecutions [StepEnglish]"
   alarm_description   = "[AlertNow] Lambda ConcurrentExecutions [StepEnglish]"
   comparison_operator = "GreaterThanOrEqualToThreshold"
-  evaluation_periods  = 1
+  evaluation_periods  = 3
   unit                = "Count"
   period              = 60
-  datapoints_to_alarm = 1
+  datapoints_to_alarm = 3
 
   cw_namespace        = "AWS/Lambda"
   metric_name         = "ConcurrentExecutions"
@@ -34,7 +34,7 @@ inputs = {
     }
   }
 
-  threshold_crit           = 60
+  threshold_crit           = 100
   ok_actions_crit          = true
   alarm_actions_crit       = [dependency.sns_topic.outputs.sns_topic_arn]
 }

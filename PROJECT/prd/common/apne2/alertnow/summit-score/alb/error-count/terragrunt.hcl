@@ -14,7 +14,7 @@ inputs = {
   alarm_name          = "[AlertNow] 5XX Error Count [SummitScore]"
   alarm_description   = "[AlertNow]5XX Error Count [SummitScore]"
   comparison_operator = "GreaterThanOrEqualToThreshold"
-  evaluation_periods  = 3
+  evaluation_periods  = 1
   unit                = "Count"
   period              = 60
   datapoints_to_alarm = 1
@@ -42,7 +42,7 @@ inputs = {
 
   enable_crit              = true
   threshold_crit           = 50
-  ok_actions_crit          = false
+  ok_actions_crit          = true
   alarm_actions_crit       = [dependency.sns_topic.outputs.sns_topic_arn]
 }
 

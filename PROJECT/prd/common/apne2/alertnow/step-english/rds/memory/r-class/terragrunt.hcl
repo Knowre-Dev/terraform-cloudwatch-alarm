@@ -36,7 +36,7 @@ inputs = {
   alarm_actions_warn       = [dependency.sns_topic.outputs.sns_topic_arn]
 
   threshold_crit           = 1073741824 # 1GB
-  ok_actions_crit          = false
+  ok_actions_crit          = true
   alarm_actions_crit       = [dependency.sns_topic.outputs.sns_topic_arn]
   # extended_statistic = var.extended_statistic
 }
