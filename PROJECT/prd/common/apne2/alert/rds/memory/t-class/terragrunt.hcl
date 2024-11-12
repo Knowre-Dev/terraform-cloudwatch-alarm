@@ -43,7 +43,7 @@ inputs = {
     }
   }
 
-  threshold_warn           = 838860800 # 800MB
+  threshold_warn           = 734003200 # 700MB
   ok_actions_warn          = true
   alarm_actions_warn       = [dependency.sns_topic_db.outputs.sns_topic_arn]
 

@@ -26,16 +26,10 @@ inputs = {
 
   # dimensions = var.dimensions
   dimensions = {
-    "[nv-acl-red-s]" = {
-      DBClusterIdentifier = "nv-acl-red-s"
+    "[prd-usea1-us-locian-aurora-cluster]" = {
+      DBClusterIdentifier = "prd-usea1-us-locian-aurora-cluster"
     },
-    "[nv-lcu-red-s]" = {
-      DBClusterIdentifier = "nv-lcu-red-s"
-    },
-    # "[nv-usp-red-s]" = {
-    #   DBClusterIdentifier = "nv-usp-red-s"
-    # },
-    "[prd-usea1-us-school-plus-aurora-cluster-cluster]" = {
+    "[prd-usea1-us-school-plus-aurora-cluster]" = {
       DBClusterIdentifier = "prd-usea1-us-school-plus-aurora-cluster-cluster"
     }
   }

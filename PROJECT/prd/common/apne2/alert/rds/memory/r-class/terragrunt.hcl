@@ -32,8 +32,8 @@ inputs = {
     "[prd-apne2-kr-knowre-school-aurora-cluster]" = {
       DBClusterIdentifier = "prd-apne2-kr-knowre-school-aurora-cluster"
     },
-    "[prd-apne2-kr-locian-aurora-cluster]" = {
-      DBClusterIdentifier = "prd-apne2-kr-locian-aurora-cluster"
+    "[prd-apne2-kr-locian-blue-aurora-cluster]" = {
+      DBClusterIdentifier = "prd-apne2-kr-locian-blue-aurora-cluster"
     },
     "[prd-apne2-kr-mowbore-aurora-cluster]" = {
       DBClusterIdentifier = "prd-apne2-kr-mowbore-aurora-cluster"

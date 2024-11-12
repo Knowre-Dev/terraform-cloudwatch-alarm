@@ -26,83 +26,32 @@ inputs = {
 
   # dimensions = var.dimensions
   dimensions = {
-    # "[knowre-lms-devopsms985-cluster]" = {
-    #   DBClusterIdentifier = "knowre-lms-devopsms985-cluster"
-    # },
-    # "[kr-dky-red-devopsms974]" = {
-    #   DBClusterIdentifier = "kr-dky-red-devopsms974"
-    # },
-    "[sl-acl-red-s]" = {
-      DBClusterIdentifier = "sl-acl-red-s"
-    },
-    "[sl-adm-red-s]" = {
-      DBClusterIdentifier = "sl-adm-red-s"
-    },
-    # "[sl-aims-red-s]" = {
-    #   DBClusterIdentifier = "sl-aims-red-s"
-    # },
-    "[sl-datcntr-pgsql-prd]" = {
-      DBClusterIdentifier = "sl-datcntr-pgsql-prd"
-    },
-    "[prd-apne2-kr-summit-score]" = {
-      DBClusterIdentifier = "prd-apne2-kr-summit-score-aurora-cluster"
-    },
-    "[sl-grafana-red-mgt]" = {
-      DBClusterIdentifier = "sl-grafana-red-mgt"
+    "[prd-apne2-kr-hexagon-aurora-cluster]" = {
+      DBClusterIdentifier = "prd-apne2-kr-hexagon-aurora-cluster"
     },
     "[prd-apne2-kr-hexagon-cms-aurora-cluster]" = {
       DBClusterIdentifier = "prd-apne2-kr-hexagon-cms-aurora-cluster"
     },
-    "[prd-apne2-kr-hexagon-aurora-cluster]" = {
-      DBClusterIdentifier = "prd-apne2-kr-hexagon-aurora-cluster"
-    },
-    # "[sl-hexagon-strapi-red-mgt]" = {
-    #   DBClusterIdentifier = "sl-hexagon-strapi-red-mgt"
-    # },
-    # "[sl-jarvis-auth-red-prd]" = {
-    #   DBClusterIdentifier = "sl-jarvis-auth-red-prd"
-    # },
-    # "[sl-jarvis-learning-red-prd]" = {
-    #   DBClusterIdentifier = "sl-jarvis-learning-red-prd"
-    # },
-    # "[sl-jarvis-payment-red-prd]" = {
-    #   DBClusterIdentifier = "sl-jarvis-payment-red-prd"
-    # },
-    "[sl-knowre-school-auth-red-prd]" = {
-      DBClusterIdentifier = "sl-knowre-school-auth-red-prd"
-    },
-     "[sl-knowre-school-lms-red-prd]" = {
-     DBClusterIdentifier = "sl-knowre-school-lms-red-prd"
-    },
-    "[sl-lc0-red-s]" = {
-      DBClusterIdentifier = "sl-lc0-red-s"
-    },
-    "[sl-lc2ccms-red-mgt]" = {
-      DBClusterIdentifier = "sl-lc2ccms-red-mgt"
-    },
-    # "[sl-lc2csrv-red-prd]" = {
-    #   DBClusterIdentifier = "sl-lc2csrv-red-prd"
-    # },
-    "[prd-apne2-kr-mowbore]" = {
-      DBClusterIdentifier = "prd-apne2-kr-mowbore-aurora-cluster"
-    },
-    "[sl-mngment-red-mgt]" = {
-      DBClusterIdentifier = "sl-mngment-red-mgt"
-    },
-    "[sl-sqr-red-s]" = {
-      DBClusterIdentifier = "sl-sqr-red-s"
-    },
-    "[sl-summit-score-admin-red-prd]" = {
-      DBClusterIdentifier = "sl-summit-score-admin-red-prd"
-    },
-    "[sl-trinity-diagnostic-red-prd]" = {
-      DBClusterIdentifier = "sl-trinity-diagnostic-red-prd"
-    },
-    "[sl-trinity-league-red-prd]" = {
-      DBClusterIdentifier = "sl-trinity-league-red-prd"
-    },
-    "[sl-knowre-school]" = {
+    "[prd-apne2-kr-knowre-school-aurora-cluster]" = {
       DBClusterIdentifier = "prd-apne2-kr-knowre-school-aurora-cluster"
+    },
+    "[prd-apne2-kr-knowre-school-auth-aurora-cluster]" = {
+      DBClusterIdentifier = "prd-apne2-kr-knowre-school-auth-aurora-cluster"
+    },
+    "[prd-apne2-kr-knowre-school-lms-aurora-cluster]" = {
+      DBClusterIdentifier = "prd-apne2-kr-knowre-school-lms-aurora-cluster"
+    },
+    "[prd-apne2-kr-locian-blue-aurora-cluster]" = {
+      DBClusterIdentifier = "prd-apne2-kr-locian-blue-aurora-cluster"
+    },
+     "[prd-apne2-kr-mowbore-aurora-cluster]" = {
+     DBClusterIdentifier = "prd-apne2-kr-mowbore-aurora-cluster"
+    },
+    "[prd-apne2-kr-summit-score-aurora-cluster]" = {
+      DBClusterIdentifier = "prd-apne2-kr-summit-score-aurora-cluster"
+    },
+    "[preprd-apne2-kr-hexagon-aurora-cluster]" = {
+      DBClusterIdentifier = "preprd-apne2-kr-hexagon-aurora-cluster"
     }
   }
 
