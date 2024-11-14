@@ -91,6 +91,10 @@ inputs = {
     "[school-trinity-learning-query-rest]"     = {
       ClusterName: "trinity"
       ServiceName: "school-trinity-learning-query-rest-prd"
+    },
+    "[prd-apne2-kr-hexagon]"     = {
+      ClusterName: "prd-apne2-kr-hexagon-ecs-cluster"
+      ServiceName: "prd-apne2-kr-hexagon"
     }
   }
 

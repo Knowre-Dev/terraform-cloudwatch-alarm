@@ -80,6 +80,10 @@ inputs = {
     "[school-trinity-learning-query-rest]" = {
       TargetGroup = "targetgroup/schoolTrinityLearningQueryPrd/f432a95094ce3e89"
       LoadBalancer = "app/schoolTrinityLearningQueryPrd/b44568c21819cbb9"
+    },
+    "[prd-apne2-kr-hexagon]" = {
+      TargetGroup = "targetgroup/prd-apne2-kr-hexagon/0a205e2db192a82d"
+      LoadBalancer = "app/prd-apne2-kr-hexagon-alb/a8a724c5e829860f"
     }
   }
 
