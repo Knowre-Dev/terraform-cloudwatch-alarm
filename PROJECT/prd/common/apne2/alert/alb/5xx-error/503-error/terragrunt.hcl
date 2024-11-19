@@ -66,6 +66,9 @@ inputs = {
     # },
     "[school-trinity-learning-query-rest]" = {
       LoadBalancer = "app/schoolTrinityLearningQueryPrd/b44568c21819cbb9"
+    },
+    "[prd-apne2-kr-hexagon]" = {
+      LoadBalancer = "app/prd-apne2-kr-hexagon-alb/a8a724c5e829860f"
     }
   }
 
