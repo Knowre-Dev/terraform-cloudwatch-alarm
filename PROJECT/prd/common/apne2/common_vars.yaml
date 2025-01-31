@@ -21,6 +21,8 @@ public_subnet_ids: ["subnet-0aaac4cae2c4e31bc", "subnet-091244f526753d52c", "sub
 #   - private
 private_subnet_ids: ["subnet-0fbab8bd9f8dcd155", "subnet-02d2c6356acfd5a01", "subnet-0f43ff57ee458843c"]
 
+codebuild_subnet_ids: ["subnet-028871821cebe7216", "subnet-0b76515247773c542"]
+
 # Office IP Address
 office_ip_address: "175.209.15.242"
 

@@ -21,7 +21,7 @@ inputs ={
   ingress_with_cidr_blocks = [
     {
       rule        = "all-all"
-      cidr_blocks = "10.11.176.0/22"
+      cidr_blocks = "10.11.176.0/23,10.11.178.0/23"
     },
     {
       rule        = "ssh-tcp"

@@ -25,11 +25,11 @@ locals {
 inputs = {
     name                    = "nat-instance"
     application             = local.common_vars.application
-    suffix_name             = "01"
+    suffix_name             = "02"
     base_ami_tag_name       = "apne2-base-amazon-2023-ami"
     instance_type           = "c5n.large"
     vpc_security_group_ids  = [dependency.sg_instance.outputs.this_security_group_id]
-    subnet_id               = local.common_vars.public_subnet_ids[0] #"subnet-0aaac4cae2c4e31bc"
+    subnet_id               = local.common_vars.public_subnet_ids[1] #"subnet-0aaac4cae2c4e31bc"
     iam_instance_profile    = dependency.iam_role.outputs.iam_instance_profile_name
     associate_public_ip_address = true
     associate_eip           = false
