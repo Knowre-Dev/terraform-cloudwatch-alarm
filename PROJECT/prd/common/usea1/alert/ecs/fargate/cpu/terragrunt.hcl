@@ -28,10 +28,6 @@ inputs = {
       ClusterName: "locian0us-usp"
       ServiceName: "locian0us-usp-stable"
     },
-    "[glacl-us]"     = {
-      ClusterName: "glacl-us"
-      ServiceName: "glacl-us-stable"
-    },
     "[mowbore]"     = {
       ClusterName: "mowbore"
       ServiceName: "mowbore-nv-stable"
