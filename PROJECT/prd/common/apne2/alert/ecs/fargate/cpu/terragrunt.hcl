@@ -21,7 +21,7 @@ inputs = {
 
   cw_namespace        = "AWS/ECS"
   metric_name         = "CPUUtilization"
-  statistic           = "Average"
+  statistic           = "Maximum"
 
   dimensions = {
     "[hexagon]"     = {
@@ -44,45 +44,17 @@ inputs = {
       ClusterName: "knowre-school"
       ServiceName: "knowre-school-lms-prd"
     },
-    # "[jarvis-payment]"     = {
-    #   ClusterName: "jarvis"
-    #   ServiceName: "jarvis-payment-prd"
-    # },
-    # "[jarvis-auth]"     = {
-    #   ClusterName: "jarvis"
-    #   ServiceName: "jarvis-auth-prd"
-    # },
-    # "[jarvis-learning]"     = {
-    #   ClusterName: "jarvis"
-    #   ServiceName: "jarvis-learning-prd"
-    # },
     "[krdky]"     = {
       ClusterName: "krdky"
       ServiceName: "krdky-stable"
-    },
-    "[kraims]"     = {
-      ClusterName: "kraims"
-      ServiceName: "kraims-stable"
-    },
-    "[krsqr]"     = {
-      ClusterName: "krsqr"
-      ServiceName: "krsqr-stable"
     },
     "[locian0kr]"     = {
       ClusterName: "locian0kr"
       ServiceName: "locian0kr-stable"
     },
-    "[trinity-diagnostic-rest]"     = {
-      ClusterName: "trinity"
-      ServiceName: "trinity-diagnostic-rest-prd"
-    },
     "[trinity-learning-query-rest]"     = {
       ClusterName: "trinity"
       ServiceName: "trinity-learning-query-rest-prd"
-    },
-    "[glacl-kr]"     = {
-      ClusterName: "glacl-kr"
-      ServiceName: "glacl-kr-stable"
     },
     "[krschool]"     = {
       ClusterName: "krschool"
@@ -95,6 +67,10 @@ inputs = {
     "[prd-apne2-kr-hexagon]"     = {
       ClusterName: "prd-apne2-kr-hexagon-ecs-cluster"
       ServiceName: "prd-apne2-kr-hexagon"
+    },
+    "[prd-apne2-kr-summit-score-dreams-xapi"     = {
+      ClusterName: "prd-apne2-kr-summit-score-dreams-xapi"
+      ServiceName: "prd-apne2-kr-summit-score-dreams-xapi"
     }
   }
 

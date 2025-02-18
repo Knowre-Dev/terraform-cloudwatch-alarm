@@ -1,5 +1,5 @@
 terraform {
-  source = "../../../../../../../../SERVICE/terraform-service-aws-cloudwatch-alert/cloudwatch/metric/alarm/generic_multiple_dimension"
+  source = "../../../../../../../SERVICE/cloudwatch/metric/alarm/generic_multiple_dimension/"
 }
 
 include {

@@ -33,14 +33,14 @@ inputs = {
       TargetGroup = "targetgroup/locian0kr-stable/504508a93e46900d"
       LoadBalancer = "app/locian0kr-stable/5118b11b02a7dad9"
     },
-    "[glacl-kr]" = {
-      TargetGroup = "targetgroup/glacl-kr-stable/ff22215517c24e4b"
-      LoadBalancer = "app/glacl-kr-stable/df4550d6e9e8bfdf"
-    },
-    "[krsqr]" = {
-      TargetGroup = "targetgroup/krsqr-stable/49f44fee75da1603"
-      LoadBalancer = "app/krsqr-stable/17b1563bfe7f7b1a"
-    },
+    # "[glacl-kr]" = {
+    #   TargetGroup = "targetgroup/glacl-kr-stable/ff22215517c24e4b"
+    #   LoadBalancer = "app/glacl-kr-stable/df4550d6e9e8bfdf"
+    # },
+    # "[krsqr]" = {
+    #   TargetGroup = "targetgroup/krsqr-stable/49f44fee75da1603"
+    #   LoadBalancer = "app/krsqr-stable/17b1563bfe7f7b1a"
+    # },
     "[mowbore-sl]" = {
       TargetGroup = "targetgroup/mowbore-sl-stable/3ea9d3b70880981f"
       LoadBalancer = "app/mowbore-sl-stable/875688c2a52379f9"
@@ -61,10 +61,10 @@ inputs = {
       TargetGroup = "targetgroup/knowre-school-auth-prd/43e6458510baa587"
       LoadBalancer = "app/knowre-school-auth-prd/326a5c32379c310b"
     },
-    "[trinity-diagnostic-rest]" = {
-      TargetGroup = "targetgroup/trinity-diagnostic-rest-prd/ed25a969422b60e2"
-      LoadBalancer = "app/trinity-diagnostic-rest-prd/0aa864ca88cfee0b"
-    },
+    # "[trinity-diagnostic-rest]" = {
+    #   TargetGroup = "targetgroup/trinity-diagnostic-rest-prd/ed25a969422b60e2"
+    #   LoadBalancer = "app/trinity-diagnostic-rest-prd/0aa864ca88cfee0b"
+    # },
     # "[jarvis-auth]" = {
     #   TargetGroup = "targetgroup/jarvis-auth-prd/9b14c0f8e3a9085e"
     #   LoadBalancer = "app/jarvis-auth-prd/15199c16c54403f0"

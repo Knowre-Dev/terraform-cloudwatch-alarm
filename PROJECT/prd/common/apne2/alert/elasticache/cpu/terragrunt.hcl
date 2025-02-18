@@ -24,59 +24,23 @@ inputs = {
   statistic           = "Maximum"
 
   dimensions = {
-    "[sl-dky-data-navy-001]" = {
-      CacheClusterId: "sl-dky-data-navy-prd-001"
-    },
-    "[sl-dky-data-navy-002]" = {
-      CacheClusterId: "sl-dky-data-navy-prd-002"
-    },
     "[sl-dky-navy-prd-001]" = {
       CacheClusterId: "sl-dky-navy-prd-001"
     },
     "[sl-dky-navy-prd-002]" = {
       CacheClusterId: "sl-dky-navy-prd-002"
     },
-    # "[sl-jarvis-auth-navy-prd-001]" = {
-    #   CacheClusterId: "sl-jarvis-auth-navy-prd-001"
-    # },
-    # "[sl-jarvis-auth-navy-prd-002]" = {
-    #   CacheClusterId: "sl-jarvis-auth-navy-prd-002"
-    # },
     "[sl-trinity-answer-navy-prd-001]" = {
       CacheClusterId: "sl-trinity-answer-navy-prd-001"
     },
     "[sl-trinity-answer-navy-prd-002]" = {
       CacheClusterId: "sl-trinity-answer-navy-prd-002"
     },
-    # "[sl-aims-answer-navy-prd-001]" = {
-    #   CacheClusterId: "sl-aims-answer-navy-prd-001"
-    # },
-    # "[sl-aims-answer-navy-prd-002]" = {
-    #   CacheClusterId: "sl-aims-answer-navy-prd-002"
-    # },
-    # "[sl-aims-curriculum-navy-prd-001]" = {
-    #   CacheClusterId: "sl-aims-curriculum-navy-prd-001"
-    # },
-    # "[sl-aims-curriculum-navy-prd-002]" = {
-    #   CacheClusterId: "sl-aims-curriculum-navy-prd-002"
-    # },
-    # "[sl-aims-session-navy-prd-001]" = {
-    #   CacheClusterId: "sl-aims-session-navy-prd-001"
-    # },
-    # "[sl-aims-session-navy-prd-002]" = {
-    #   CacheClusterId: "sl-aims-session-navy-prd-002"
-    # },
     "[sl-school-answer-navy-prd-001]" = {
       CacheClusterId: "sl-school-answer-navy-prd-001"
     },
     "[sl-school-answer-navy-prd-002]" = {
       CacheClusterId: "sl-school-answer-navy-prd-002"
-    },
-    "[sl-school-curriculum-navy-prd-001]" = {
-      CacheClusterId: "sl-school-curriculum-navy-prd-001"
-    },
-    "[sl-school-curriculum-navy-prd-002]" = {
-      CacheClusterId: "sl-school-curriculum-navy-prd-002"
     },
     "[sl-school-session-navy-prd-001]" = {
       CacheClusterId: "sl-school-session-navy-prd-001"

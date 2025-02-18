@@ -25,9 +25,9 @@ inputs = {
 
   # dimensions = var.dimensions
   dimensions = {
-    "[glacl-us-stable]" = {
-      LoadBalancer = "app/glacl-us-stable/dd65a729d972f43d"
-    },
+    # "[glacl-us-stable]" = {
+    #   LoadBalancer = "app/glacl-us-stable/dd65a729d972f43d"
+    # },
     "[locian0us-usp-stable]" = {
       LoadBalancer = "app/locian0us-usp-stable/b93815483f33da5d"
     },

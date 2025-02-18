@@ -31,12 +31,12 @@ inputs = {
     "[locaian0kr]" = {
       LoadBalancer = "app/locian0kr-stable/5118b11b02a7dad9"
     },
-    "[glacl-kr]" = {
-      LoadBalancer = "app/glacl-kr-stable/df4550d6e9e8bfdf"
-    },
-    "[krsqr]" = {
-      LoadBalancer = "app/krsqr-stable/17b1563bfe7f7b1a"
-    },
+    # "[glacl-kr]" = {
+    #   LoadBalancer = "app/glacl-kr-stable/df4550d6e9e8bfdf"
+    # },
+    # "[krsqr]" = {
+    #   LoadBalancer = "app/krsqr-stable/17b1563bfe7f7b1a"
+    # },
     "[mowbore-sl]" = {
       LoadBalancer = "app/mowbore-sl-stable/875688c2a52379f9"
     }
@@ -52,9 +52,9 @@ inputs = {
     "[knowre-school-auth]" = {
       LoadBalancer = "app/knowre-school-auth-prd/326a5c32379c310b"
     },
-    "[trinity-diagnostic-rest]" = {
-      LoadBalancer = "app/trinity-diagnostic-rest-prd/0aa864ca88cfee0b"
-    },
+    # "[trinity-diagnostic-rest]" = {
+    #   LoadBalancer = "app/trinity-diagnostic-rest-prd/0aa864ca88cfee0b"
+    # },
     # "[jarvis-auth]" = {
     #   LoadBalancer = "app/jarvis-auth-prd/15199c16c54403f0"
     # },

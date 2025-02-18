@@ -47,10 +47,10 @@ inputs = {
     },
     "[prd-apne2-kr-summit-score-aurora-cluster]" = {
       DBClusterIdentifier = "prd-apne2-kr-summit-score-aurora-cluster"
-    },
-    "[preprd-apne2-kr-hexagon-aurora-cluster]" = {
-      DBClusterIdentifier = "preprd-apne2-kr-hexagon-aurora-cluster"
     }
+    # "[preprd-apne2-kr-hexagon-aurora-cluster]" = {
+    #   DBClusterIdentifier = "preprd-apne2-kr-hexagon-aurora-cluster"
+    # }
   }
 
   threshold_warn           = 10

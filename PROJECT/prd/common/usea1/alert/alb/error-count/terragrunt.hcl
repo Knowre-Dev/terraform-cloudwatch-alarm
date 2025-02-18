@@ -25,10 +25,10 @@ inputs = {
 
   # dimensions = var.dimensions
   dimensions = {
-    "[glacl-us-stable]" = {
-      TargetGroup = "targetgroup/glacl-us-stable/5bd34c9f49cb8bf2"
-      LoadBalancer = "app/glacl-us-stable/dd65a729d972f43d"
-    },
+    # "[glacl-us-stable]" = {
+    #   TargetGroup = "targetgroup/glacl-us-stable/5bd34c9f49cb8bf2"
+    #   LoadBalancer = "app/glacl-us-stable/dd65a729d972f43d"
+    # },
     "[locian0us-usp-stable]" = {
       TargetGroup = "targetgroup/locian0us-usp-stable/5ec0cd24fa791534"
       LoadBalancer = "app/locian0us-usp-stable/b93815483f33da5d"
